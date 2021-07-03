@@ -1,0 +1,60 @@
+.game-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+	border-bottom: 2px solid rgb(73, 73, 73);
+	margin: 0 auto 2rem auto;
+}
+
+.game-content {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	margin: 0 auto;
+}
+
+.game-content,
+.game-header {
+	width: 90%;
+	max-width: 60rem;
+}
+
+.guess-range {
+	font-size: 1.6rem;
+}
+
+.input-section {
+	text-align: center;
+}
+
+.game-stats-section {
+	font-size: 1.6rem;
+	margin-bottom: 3rem;
+}
+
+.game-stats-section p:not(:last-child) {
+	margin-bottom: 1rem;
+}
+
+.number-display-container {
+	background-color: teal;
+}
+
+.input-box {
+	background-color: rgb(51, 51, 51);
+	border: none;
+	border-radius: 0.4rem;
+	font-family: inherit; /* inherit from body */
+	color: inherit;
+	font-size: 2rem;
+	padding: 0.8rem;
+	margin: 0 1rem 3rem 0;
+	width: 10rem;
+	text-align: center;
+}
+
+.message {
+	margin-bottom: 2rem;
+	font-size: 2rem;
+}

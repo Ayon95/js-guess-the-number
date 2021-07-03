@@ -72,6 +72,7 @@ function applyDifficulty() {
 }
 
 function reset() {
+	gameIsOver = false;
 	secretNumber = Math.trunc(Math.random() * 20) + 1;
 	inputBox.value = "";
 	answerDisplayArea.textContent = "Secret Number: ??";

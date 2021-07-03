@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Quicksand", sans-serif;
+	color: #eee;
+	background-color: #222;
+}
+
+.btn {
+	text-decoration: none;
+	letter-spacing: 1.5px;
+	border: none;
+	background-color: rgb(123, 75, 235);
+	border-radius: 5px;
+	color: #eee;
+	font-size: 1.6rem;
+	font-weight: bold;
+	font-family: inherit;
+	padding: 1rem 2rem;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: rgb(112, 69, 212);
+}
+
+.btn-play-again {
+	margin-right: 1rem;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 20em) {
+	html {
+		font-size: 50%;
+	}
+}
+
+@media only screen and (min-width: 56.25em) {
+	html {
+		font-size: 72%;
+	}
+}
+
+@media only screen and (min-width: 75em) {
+	html {
+		font-size: 90%;
+	}
+}
+
+@media only screen and (min-width: 112.5em) {
+	html {
+		font-size: 110%;
+	}
+}

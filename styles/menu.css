@@ -1,0 +1,54 @@
+.menu-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.menu-header {
+	border-bottom: 2px solid rgb(73, 73, 73);
+}
+
+.menu-content,
+.menu-header {
+	width: 90%;
+	max-width: 50rem;
+	margin: 0 auto;
+}
+
+.menu-header h1 {
+	font-size: 2.5rem;
+	padding: 3rem 0;
+	text-align: center;
+}
+
+.radio-container {
+	width: 100%;
+	border: none;
+	margin: 4rem 0;
+	border-radius: 4px;
+}
+
+.radio-container legend {
+	font-size: 2.2rem;
+	padding: 0 1rem;
+	text-align: center;
+}
+
+.radio-controls {
+	display: flex;
+	justify-content: center;
+	padding: 2rem 1rem;
+}
+
+.radio-control:not(:last-child) {
+	margin-right: 2rem;
+}
+
+.radio-input {
+	margin-right: 0.6rem;
+}
+
+.radio-label {
+	font-size: 1.7rem;
+	opacity: 0.8;
+}
